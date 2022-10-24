@@ -16,6 +16,7 @@ body {
 }
 
 header {
+    position: fixed;
     grid-area: content;
     place-self: start center;
     height: 100px;
@@ -39,20 +40,12 @@ section {
     height: 100vh;
 }
 
-.projeto {
-    background-color: lightpink;
-    width: 100%;
-}
-
-.contato {
-    width: 100%;
-    background-color: lightsalmon;
-}
-
 footer {
     width: 100%;
     grid-area: content;
-    height: 100px;
-    background-color: #0005;
     place-self: end center;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    border-top: 2px solid #fff;
 }
