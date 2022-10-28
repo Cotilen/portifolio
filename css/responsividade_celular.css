@@ -1,0 +1,96 @@
+@media (max-width:640px) {
+    .menu {
+        display: none;
+    }
+    .box {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .logo {
+        font-size: 1.25rem;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile__foto {
+        height: 150px;
+        width: 150px;
+    }
+    .profile__text {
+        font-size: 1.5rem;
+    }
+    .profile__name {
+        font-size: 3rem;
+    }
+    .sobre-mim {
+        height: 800px;
+        gap: 64px;
+        display: grid;
+        grid-template-areas: "title title" "description description" "skills skills";
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section__title {
+        font-size: 5rem;
+    }
+    .description__text {
+        font-size: 1rem;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .description__title {
+        margin-left: 50px;
+        font-size: 2rem;
+        color: var(--primary-color);
+    }
+    .skills {
+        grid-area: skills;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 50px;
+    }
+    .skills__title {
+        font-size: 2rem;
+        color: var(--primary-color);
+    }
+    .skills__icons {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .projetos {
+        height: 3000px;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card img {
+        height: 200px;
+        width: 400px;
+    }
+    .contato {
+        height: 500px;
+        display: grid;
+        grid-template-areas: "title  title" "contatos  links" "social social";
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .social__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
