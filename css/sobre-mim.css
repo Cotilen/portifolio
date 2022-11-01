@@ -22,7 +22,7 @@
     grid-area: description;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .description__title {
@@ -40,7 +40,7 @@
     grid-area: skills;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .skills__title {
