@@ -29,7 +29,7 @@
         font-size: 3rem;
     }
     .sobre-mim {
-        height: 800px;
+        height: 50vh;
         gap: 64px;
         display: grid;
         grid-template-areas: "title title" "description description" "skills skills";
@@ -61,13 +61,14 @@
         color: var(--primary-color);
     }
     .skills__icons {
-        width: 40%;
+        width: 60%;
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
     }
     .projetos {
-        height: 3000px;
+        padding-top: 550px;
+        height: 260vh;
     }
     .card-container {
         display: flex;
@@ -80,17 +81,19 @@
         width: 400px;
     }
     .contato {
-        height: 500px;
-        display: grid;
-        grid-template-areas: "title  title" "contatos  links" "social social";
-        grid-template-rows: auto auto auto;
-        align-items: center;
-        justify-content: space-around;
-        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .contato__container {
+        gap: 50px;
     }
     .social__container {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .links__container {
+        gap: 50px;
     }
 }
