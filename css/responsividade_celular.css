@@ -17,6 +17,7 @@
     .profile {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .profile__foto {
         height: 150px;
