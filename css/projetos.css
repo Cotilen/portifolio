@@ -7,6 +7,11 @@
     gap: 60px;
 }
 
+.projetos img {
+    width: 320px;
+    height: 200px;
+}
+
 .card-container {
     position: relative;
     max-width: 1200px;

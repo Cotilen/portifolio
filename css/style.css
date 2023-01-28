@@ -8,10 +8,10 @@ html {
 }
 
 body {
+    color: #7FFF00;
     font-family: 'Ubuntu', sans-serif;
     display: grid;
     grid-template-areas: "content";
-    color: #fff;
     background-color: #000;
 }
 
@@ -35,6 +35,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all 0.5s;
+}
+
+.voltar:hover {
+    color: var(--primary-color);
+    z-index: 9999;
 }
 
 section {

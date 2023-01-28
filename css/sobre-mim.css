@@ -31,6 +31,7 @@
 }
 
 .description__text {
+    color: #fff;
     font-size: 1.5rem;
     width: 85%;
     line-height: 150%;
