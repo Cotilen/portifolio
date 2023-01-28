@@ -2,6 +2,7 @@
     max-width: 1200px;
     width: 100%;
     gap: 64px;
+    height: auto;
     display: grid;
     grid-template-areas: "title title" "description skills";
     grid-template-rows: auto 1fr;
